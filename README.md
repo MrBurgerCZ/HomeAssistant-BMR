@@ -1,5 +1,7 @@
 # HomeAssistant-BMR
 
+Fixed TEMP_CELSIUS error.
+
 Home Assistant integration plugin for [BMR HC64 heating
 controller](https://bmr.cz/produkty/regulace-topeni/rnet). This controller has
 many quirks but overall it is quite usable in Home Assistant.  The plugin

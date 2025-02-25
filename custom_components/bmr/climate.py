@@ -49,7 +49,7 @@ from homeassistant.const import (
     ATTR_TEMPERATURE,
     CONF_PASSWORD,
     CONF_USERNAME,
-    TEMP_CELSIUS,
+    UnitOfTemperature,
 )
 import homeassistant.helpers.config_validation as cv
 from homeassistant.util import Throttle as throttle
@@ -207,7 +207,7 @@ class BmrRoomClimate(ClimateEntity):
     def temperature_unit(self):
         """ The unit of temperature measurement for the system.
         """
-        return TEMP_CELSIUS
+        return UnitOfTemperature.CELSIUS
 
     @property
     def current_temperature(self):
